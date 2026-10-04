@@ -27,10 +27,10 @@ export function HomeTabs({ plans, apiModels, cnyRate }: { plans: Plan[]; apiMode
     <>
       <div className="tabs" role="tablist" aria-label="计费方式">
         <button role="tab" aria-selected={view === "plans"} aria-controls="panel-plans" onClick={() => select("plans")}>
-          订阅套餐（按月）
+          订阅套餐 · 按月
         </button>
         <button role="tab" aria-selected={view === "api"} aria-controls="panel-api" onClick={() => select("api")}>
-          API（按 token）
+          API · 按 token
         </button>
       </div>
       <div id="panel-plans" role="tabpanel" hidden={view !== "plans"}>

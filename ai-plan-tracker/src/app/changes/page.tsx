@@ -8,9 +8,9 @@ export const metadata: Metadata = { title: "套餐变更日志 · AI 套餐追�
 export default function ChangesPage() {
   return (
     <>
-      <h1>套餐变更日志</h1>
+      <h1>各家套餐最近改了什么</h1>
       <p className="lead">
-        各家额度规则的每一次修改，都附有原文出处。事实（变更前后）和解读分开展示。在「我的订阅」里勾选你的档位后，这里会标出影响你的变更。
+        每条变更都分开写「事实」（变更前 → 变更后）和「解读」，并附原文出处。
       </p>
       <ChangeLog changes={changes} plans={plans} />
     </>

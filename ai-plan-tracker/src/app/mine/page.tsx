@@ -7,9 +7,9 @@ export const metadata: Metadata = { title: "我的订阅 · AI 套餐追踪" };
 export default function MinePage() {
   return (
     <>
-      <h1>我的订阅与重叠检查</h1>
+      <h1>我是不是买重了？</h1>
       <p className="lead">
-        勾选你正在付费的档位，看每月一共花多少、哪些能力被重复购买。数据只保存在你的浏览器里，不需要登录，也不需要任何账号。
+        勾选正在付费的档位，看每月一共花多少、哪些能力重复购买、哪个可以去掉。
       </p>
       <MySubscriptions plans={plans} />
     </>
